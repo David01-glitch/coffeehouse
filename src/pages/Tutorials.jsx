@@ -3,12 +3,12 @@ import { Clock, Award, ArrowRight } from 'lucide-react';
 import PageHero from '../components/PageHero';
 import Section, { SectionHeading } from '../components/Section';
 import Newsletter from '../components/Newsletter';
-import frenchPress from '../assets/images/tutorials/french-press.svg';
-import espresso from '../assets/images/tutorials/espresso-basics.svg';
-import latteArt from '../assets/images/tutorials/latte-art.svg';
-import beans from '../assets/images/coffee/beans.svg';
-import pourover from '../assets/images/coffee/pourover.svg';
-import latte from '../assets/images/coffee/latte.svg';
+import frenchPress from '../assets/images/tutorials/french-press.jpg';
+import espresso from '../assets/images/tutorials/espresso-basics.jpg';
+import latteArt from '../assets/images/tutorials/latte-art.jpg';
+import beans from '../assets/images/coffee/beans.jpg';
+import pourover from '../assets/images/coffee/pourover.jpg';
+import latte from '../assets/images/coffee/latte.jpg';
 
 const tutorials = [
   {

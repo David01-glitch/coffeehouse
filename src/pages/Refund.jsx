@@ -1,7 +1,7 @@
 import PageHero from '../components/PageHero';
 import Section from '../components/Section';
 import { site } from '../data/site';
-import heroImg from '../assets/images/cafes/wood-counter.svg';
+import heroImg from '../assets/images/cafes/wood-counter.jpg';
 
 export default function Refund() {
   return (

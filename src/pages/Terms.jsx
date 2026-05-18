@@ -1,7 +1,7 @@
 import PageHero from '../components/PageHero';
 import Section from '../components/Section';
 import { site } from '../data/site';
-import heroImg from '../assets/images/lifestyle/garden-coffee.svg';
+import heroImg from '../assets/images/lifestyle/garden-coffee.jpg';
 
 export default function Terms() {
   return (

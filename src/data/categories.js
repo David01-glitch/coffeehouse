@@ -1,9 +1,9 @@
-import coffeeCulture from '../assets/images/categories/coffee-culture.svg';
-import cafeReviews from '../assets/images/categories/cafe-reviews.svg';
-import morningRoutines from '../assets/images/categories/morning-routines.svg';
-import conversation from '../assets/images/categories/conversation-topics.svg';
-import relaxedLiving from '../assets/images/categories/relaxed-living.svg';
-import retirementSocial from '../assets/images/categories/retirement-social.svg';
+import coffeeCulture from '../assets/images/categories/coffee-culture.jpg';
+import cafeReviews from '../assets/images/categories/cafe-reviews.jpg';
+import morningRoutines from '../assets/images/categories/morning-routines.jpg';
+import conversation from '../assets/images/categories/conversation-topics.jpg';
+import relaxedLiving from '../assets/images/categories/relaxed-living.jpg';
+import retirementSocial from '../assets/images/categories/retirement-social.jpg';
 
 export const categories = [
   {

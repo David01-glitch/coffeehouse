@@ -6,7 +6,7 @@ import Section from '../components/Section';
 import ArticleAccordion from '../components/ArticleAccordion';
 import Newsletter from '../components/Newsletter';
 import { articles, articleCategories } from '../data/articles';
-import heroImg from '../assets/images/blog/pourover-guide.svg';
+import heroImg from '../assets/images/blog/pourover-guide.jpg';
 
 const PAGE_STEP = 4;
 

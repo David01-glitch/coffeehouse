@@ -1,11 +1,11 @@
-import pourover from '../assets/images/blog/pourover-guide.svg';
-import cafePortland from '../assets/images/blog/cafe-portland.svg';
-import slowMornings from '../assets/images/blog/slow-mornings.svg';
-import conversationArt from '../assets/images/blog/conversation-art.svg';
-import thirdPlace from '../assets/images/blog/third-place.svg';
-import retirementRoutine from '../assets/images/blog/retirement-routine.svg';
-import beansOrigin from '../assets/images/blog/beans-origin.svg';
-import cozyReading from '../assets/images/blog/cozy-reading.svg';
+import pourover from '../assets/images/blog/pourover-guide.jpg';
+import cafePortland from '../assets/images/blog/cafe-portland.jpg';
+import slowMornings from '../assets/images/blog/slow-mornings.jpg';
+import conversationArt from '../assets/images/blog/conversation-art.jpg';
+import thirdPlace from '../assets/images/blog/third-place.jpg';
+import retirementRoutine from '../assets/images/blog/retirement-routine.jpg';
+import beansOrigin from '../assets/images/blog/beans-origin.jpg';
+import cozyReading from '../assets/images/blog/cozy-reading.jpg';
 
 export const articles = [
   {

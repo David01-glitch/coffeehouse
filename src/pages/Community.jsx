@@ -5,11 +5,11 @@ import PageHero from '../components/PageHero';
 import Section, { SectionHeading } from '../components/Section';
 import Newsletter from '../components/Newsletter';
 import FAQ from '../components/FAQ';
-import groupTable from '../assets/images/community/group-table.svg';
-import bookClub from '../assets/images/community/book-club.svg';
-import walking from '../assets/images/community/walking-group.svg';
-import portland from '../assets/images/projects/portland-pop-up.svg';
-import meetup from '../assets/images/projects/morning-meetups.svg';
+import groupTable from '../assets/images/community/group-table.jpg';
+import bookClub from '../assets/images/community/book-club.jpg';
+import walking from '../assets/images/community/walking-group.jpg';
+import portland from '../assets/images/projects/portland-pop-up.jpg';
+import meetup from '../assets/images/projects/morning-meetups.jpg';
 
 const chapters = [
   { city: 'Portland, ME', members: 320, hosts: 6 },

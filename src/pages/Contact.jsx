@@ -6,7 +6,7 @@ import Section, { SectionHeading } from '../components/Section';
 import FAQ from '../components/FAQ';
 import { site } from '../data/site';
 import { Events } from '../utils/analytics';
-import heroImg from '../assets/images/cafes/leather-booth.svg';
+import heroImg from '../assets/images/cafes/leather-booth.jpg';
 
 export default function Contact() {
   const [form, setForm] = useState({ name: '', email: '', subject: 'General', message: '' });

@@ -3,9 +3,9 @@ import Section, { SectionHeading } from '../components/Section';
 import Newsletter from '../components/Newsletter';
 import { motion } from 'framer-motion';
 import { Coffee, Heart, Users, Leaf, Award, Map } from 'lucide-react';
-import heroImg from '../assets/images/cafes/window-seat.svg';
-import founder from '../assets/images/hero/barista-pour.svg';
-import scene from '../assets/images/lifestyle/scandi-living.svg';
+import heroImg from '../assets/images/cafes/window-seat.jpg';
+import founder from '../assets/images/hero/barista-pour.jpg';
+import scene from '../assets/images/lifestyle/scandi-living.jpg';
 
 const values = [
   { icon: Coffee, t: 'Craft, gently', d: 'We celebrate good coffee without the snobbery. Tasting notes welcome — gatekeeping is not.' },

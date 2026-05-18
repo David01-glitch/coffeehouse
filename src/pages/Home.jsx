@@ -11,18 +11,18 @@ import { articles } from '../data/articles';
 import { site } from '../data/site';
 import { Events } from '../utils/analytics';
 
-import heroImg from '../assets/images/hero/cozy-modern-cafe.svg';
-import morningImg from '../assets/images/hero/morning-light.svg';
-import baristaImg from '../assets/images/hero/barista-pour.svg';
-import scandiImg from '../assets/images/lifestyle/scandi-living.svg';
-import gardenImg from '../assets/images/lifestyle/garden-coffee.svg';
-import windowSeat from '../assets/images/cafes/window-seat.svg';
-import woodCounter from '../assets/images/cafes/wood-counter.svg';
-import leatherBooth from '../assets/images/cafes/leather-booth.svg';
-import groupTable from '../assets/images/community/group-table.svg';
-import bookClub from '../assets/images/community/book-club.svg';
-import journaling from '../assets/images/morning/journaling.svg';
-import sunrise from '../assets/images/morning/sunrise.svg';
+import heroImg from '../assets/images/hero/cozy-modern-cafe.jpg';
+import morningImg from '../assets/images/hero/morning-light.jpg';
+import baristaImg from '../assets/images/hero/barista-pour.jpg';
+import scandiImg from '../assets/images/lifestyle/scandi-living.jpg';
+import gardenImg from '../assets/images/lifestyle/garden-coffee.jpg';
+import windowSeat from '../assets/images/cafes/window-seat.jpg';
+import woodCounter from '../assets/images/cafes/wood-counter.jpg';
+import leatherBooth from '../assets/images/cafes/leather-booth.jpg';
+import groupTable from '../assets/images/community/group-table.jpg';
+import bookClub from '../assets/images/community/book-club.jpg';
+import journaling from '../assets/images/morning/journaling.jpg';
+import sunrise from '../assets/images/morning/sunrise.jpg';
 
 export default function Home() {
   return (
