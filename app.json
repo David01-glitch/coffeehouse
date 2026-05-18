@@ -1,0 +1,12 @@
+{
+  "name": "Coffee Club",
+  "description": "A modern coffee lifestyle website — café reviews, slow mornings, and meaningful conversations.",
+  "repository": "https://github.com/coffee-club/coffee-club",
+  "keywords": ["coffee", "lifestyle", "react", "vite", "tailwind"],
+  "env": {
+    "NODE_ENV": {
+      "value": "production"
+    }
+  },
+  "buildpacks": [{ "url": "heroku/nodejs" }]
+}

@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-cream: #FBF7F0;
+  --color-espresso: #2C1D12;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 17px;
+  line-height: 1.7;
+  color: #2C1D12;
+  background: #FBF7F0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Fraunces', serif;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: #2C1D12;
+}
+
+/* Glass card */
+.glass {
+  background: rgba(255, 251, 244, 0.55);
+  backdrop-filter: blur(18px) saturate(140%);
+  -webkit-backdrop-filter: blur(18px) saturate(140%);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.glass-dark {
+  background: rgba(44, 29, 18, 0.55);
+  backdrop-filter: blur(18px) saturate(140%);
+  border: 1px solid rgba(224, 181, 131, 0.18);
+}
+
+/* Subtle grain */
+.grain::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.05;
+  background-image: radial-gradient(rgba(63,42,28,0.6) 1px, transparent 1px);
+  background-size: 3px 3px;
+  mix-blend-mode: multiply;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: #F6EFE2; }
+::-webkit-scrollbar-thumb { background: #946445; border-radius: 8px; }
+::-webkit-scrollbar-thumb:hover { background: #6B4226; }
+
+/* Section transitions */
+section { scroll-margin-top: 80px; }
+
+/* Utility: hide scrollbar */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* Focus */
+:focus-visible {
+  outline: 2px solid #C58A47;
+  outline-offset: 3px;
+  border-radius: 6px;
+}
